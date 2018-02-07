@@ -1,0 +1,46 @@
+body {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #009de0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.centro {
+  text-align: center;
+}
+
+.formulario{
+       width: 400px;
+       clear: both;
+       margin: auto;
+}
+
+.formulario input {
+       width: 100%;
+       height: 25px;
+       clear: both;
+}
+
+.formulario input[type="submit"]{
+       width: 70%;
+       height: 30px;
+       font-size: 18px;
+}
+
+.formulario input[type="button"] {
+       width: 70%;
+       height: 30px;
+       font-size: 18px;
+}
+
+.formulario select{
+  width: 100%;
+  height: 25px;
+  clear: both;
+}

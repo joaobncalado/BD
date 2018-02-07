@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-type" content="text/html; charset=UTF-8"> -->
+    <link type="text/css" rel="stylesheet" href="css/stylesheet1.css"/>
+    <script type= "text/javascript" src = "js/countries.js"></script>
+    <title>Projeto Base de Dados</title>
+  </head>
+  <body>
+    <h1> Projeto de Base de Dados</h1>
+    <h1> 2015/2016 - 1º Semestre </h1>
+
+    <div class="formulario">
+      <form method="POST" action="registo.php" style="" >
+        <p><input type="text" id="email" name="email" placeholder="* Email" required></p>
+        <p><input type="password" id="senha" name="senha" placeholder="* Senha" required></p>
+        <p><input type="text" name="nome" id="nome" placeholder="* Nome" required></p>
+        <p><input type="text" id="pergunta1" name="pergunta1" placeholder="* Pergunta Secreta 1" required>
+          <input type="text" id="resposta1" name="resposta1" placeholder="* Resposta Secreta 1" required></p>
+        <p><input type="text" id="pergunta2" name="pergunta2" placeholder="Pergunta Secreta 2">
+          <input type="text" id="resposta2" name="resposta2" placeholder="Resposta Secreta 2"></p>
+        <p><select id="pais" name ="pais"></select>
+          <script language="javascript">
+            populateCountries("pais");
+            </script>
+        <p class="centro"><input type="submit" value="Registar" id="registar" name="registar"></p>
+      </form>
+      <p>Campos assinalados com * são de preenchimento obrigatório.</p>
+    </div>
+
+  </body>
+</html>
